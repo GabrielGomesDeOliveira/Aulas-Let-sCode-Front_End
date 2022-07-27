@@ -1,0 +1,24 @@
+.layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* separa em colunas == unidades usadas %, px, fr, em */
+    grid-template-rows: 50% 50%; /* separa em linhas */
+   /* grid-column-gap: ;  espaçameto entre as colunas */
+   /* grid-row-gap: ;  espaçamento entre linhas */
+   /* grid-auto-rows: ; define o tamanho da linhas automatico (minmax(400px, auto)*/
+
+   grid-gap: 0.5em;
+
+   /*justify-items: start; (horizontal) vai ocupar o espaço inteiro , porêm irá iniciar no começo */
+   /*align-items: center; (vertical) start = top   end=fim  centro=center  comportamento padrão=stretch */
+   /*align-self: center;  */
+}
+
+.noticia-principal {
+    grid-column-start: 1; /* começa na coluna ... */
+    grid-column-end: 3; /* termina na coluna ... */
+    grid-row-start: 2; /* começa na linha ... */
+}
+
+.noticia img {
+    width: 100%;
+}

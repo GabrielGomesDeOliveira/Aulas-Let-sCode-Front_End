@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #132e4c;
+}
+
+.pagina img {
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.pagina img:hover {
+    background-color: yellow;
+}

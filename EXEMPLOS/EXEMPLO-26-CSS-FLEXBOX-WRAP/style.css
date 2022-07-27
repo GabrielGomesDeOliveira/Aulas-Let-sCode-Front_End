@@ -1,0 +1,32 @@
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.conteiner {
+    display: flex;
+    max-width: 360px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+}
+
+.item {
+    flex: 1;
+    margin: 5px;
+    background: red;
+    text-align: center;
+    font-size: 15pt;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    text-align: center;
+}

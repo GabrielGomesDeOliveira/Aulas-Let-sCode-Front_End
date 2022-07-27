@@ -1,0 +1,162 @@
+/******* FORMATANDO A PÁGINA ********/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/********** BARRA DE NAVEGAÇÃO ***********/
+#nav_bar {
+    margin: auto;
+    background-color: rgb(72, 72, 252);
+    text-align: center;
+    border: solid black 3px ;
+}
+
+#nav_bar p {
+    font-size: 90px;
+    padding: 40px;
+    color: black;
+}
+
+span {
+    color: white;
+}
+
+#links-nav {
+    font-size: 30px;
+    padding: 0px 20px 20px 20px;
+}
+
+#links-nav a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+#links-nav a:hover {
+    background: black;
+    color: white;
+}
+
+/********** CORPO CONTATO *********/
+
+#corpo-contato {
+    margin: auto;
+    width: 1200px;
+}
+
+#entre-contato h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.area-form {
+    margin: 20px;
+}
+
+.inp-texto input {
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 3px black;
+}
+
+.inp-numero input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 3px black;
+}
+
+.caixa-selecao {
+    float: left;
+    margin: 5px 15px;
+}
+
+.caixa-selecao input {
+    margin: 5px;
+}
+
+.caixa-selecao ul {
+    list-style: none;
+}
+
+.comentario {
+    margin: 5px;
+}
+
+.comentario textarea {
+    margin: 5px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.botao input {
+    width: 100px;
+    height: 40px;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/********* RODAPÉ **********/
+#rodape {
+    background-color: rgb(72, 72, 252);
+    margin: 15px 0px;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+#informacoes {
+    padding: 0px 10px;
+}
+
+.mais-informacoes {
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.links-redes {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    color: white;
+}
+
+.links-redes img {
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+.direitos {
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 45px;
+    left: 65px;
+    color: white;
+    float: left;
+}

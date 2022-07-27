@@ -1,0 +1,261 @@
+/***   formatação geral   ***/
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/***   formatando o corpo   ***/
+html, body {
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 180px 1fr 130px;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+/***   formatando o cabeçalho   ***/
+
+header {
+    background-color: #4953FA;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60pt;
+    padding: 15px 0 0 0;
+}
+
+span {
+    color: white;
+}
+
+.cabecalho nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+nav a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18pt;
+    background-color: white;
+    margin: 5px;
+    width: 110px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+/***   formatando o conteúdo   ***/
+main {
+    background-color: rgb(243, 240, 240);
+    margin: 10px 0 10px 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.area-perfil {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 50px 0;
+}
+
+.imagem-perfil img {
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.texto-perfil {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.sobre-mim {
+    margin: 0 0 0 10px;
+}
+
+.area-conhecimentos {
+    display: flex;
+    margin: 0 0 0 10px;
+}
+
+.processos label {
+    font-size: 14pt;
+}
+
+.processos {
+    margin: 0 20px 0 0;
+}
+
+.barra-processos {
+    width: 150px;
+    height: 30px;
+}
+
+.area-formacoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-formacoes {
+    margin: 0 0 0 10px;
+}
+
+.texto-formacoes p {
+    margin: 0 0 0 10px;
+}
+
+.imagens-formacoes img {
+    border-radius: 50%;
+    width: 185px;
+}
+
+
+/***   formatando o Rodapé   ***/
+footer {
+    background-color: #4953FA;
+}
+
+.contatos {
+    font-size: 14pt;
+    color: white;
+}
+
+.area-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-rapido h2 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-rapido {
+    color: white;
+}
+
+.nav-rapido a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12pt;
+    color: white;
+    margin: 2px;
+}
+
+.media {
+    margin: 5px 20px 0 0;
+    color: white;
+}
+
+.media img {
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.direitos-reservados {
+    text-align: center;
+}
+
+/*   Área responsividade   */
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .texto-perfil {
+        width: 58%;
+    }
+
+    .imagem-perfil img {
+        width: 300px;
+    } 
+
+    .barra-processos {
+        width: 120px;
+    }
+
+    .texto-formacoes {
+        width: 58%;
+    }
+
+    .imagens-formacoes img {
+        width: 148px;
+    }
+
+    .nav-rapido {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .grid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .area-perfil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-perfil {
+        width: 98%;
+        margin: 0 0 0 5px;
+    }
+
+    .area-formacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-formacoes {
+        width: 97%;
+        margin: 0 0 0 5px;
+    }
+
+    .area-rodape {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-rapido {
+        display: none;
+    }
+
+    .media {
+        width: 170px;
+        margin: 0 0 0 0;
+    }
+
+    ul {
+        padding: 0 0 0 5px;
+    }
+}
